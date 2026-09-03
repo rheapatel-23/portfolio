@@ -8,10 +8,10 @@ const educationData = [
     field: 'Computer Science Engineering',
     institution: 'Sai Vidya Institute of Technology',
     location: 'Rajankunte, Bengaluru',
-    period: '2023 – Present',
-    grade: 'CGPA: 9.39 (Till 5th Semester)',
+    period: '2023 – Present (7th Sem)',
+    grade: 'CGPA: 9.35 (Till 6th Semester)',
     icon: GraduationCap,
-    highlights: ['Data Structures & Algorithms', 'OOP', 'AI/ML', 'Database Management'],
+    highlights: ['Data Structures & Algorithms', 'OOP', 'AI & Deep Learning', 'Database Management', 'Cloud Computing & Distributed Systems'],
   },
   {
     id: 2,

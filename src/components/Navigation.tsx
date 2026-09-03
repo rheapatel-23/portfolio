@@ -72,7 +72,7 @@ export default function Navigation({ scrollY }: NavigationProps) {
             </a>
 
             {/* Desktop Navigation */}
-            <div className="hidden lg:flex items-center gap-8">
+            <div className="hidden lg:flex items-center gap-7">
               {navItems.map((item) => (
                 <a
                   key={item.href}
@@ -86,10 +86,19 @@ export default function Navigation({ scrollY }: NavigationProps) {
                 >
                   {item.label}
                   {activeSection === item.href.slice(1) && (
-                    <span className="absolute -bottom-1 left-0 w-full h-0.5 bg-neon" />
+                    <span className="absolute -bottom-1 left-0 w-full h-0.5 bg-neon shadow-sm shadow-neon" />
                   )}
                 </a>
               ))}
+
+              <a
+                href="#achievements"
+                onClick={(e) => handleNavClick(e, '#achievements')}
+                className="flex items-center gap-1.5 px-3 py-1 bg-neon/10 hover:bg-neon hover:text-void text-neon text-xs font-semibold rounded-full border border-neon/30 transition-all duration-300"
+              >
+                <span>🏆</span>
+                <span>Best Paper Winner</span>
+              </a>
             </div>
 
             {/* Mobile Menu Button */}

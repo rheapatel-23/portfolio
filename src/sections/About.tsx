@@ -1,10 +1,10 @@
 import { useEffect, useRef, useState } from 'react';
-import { Award, Lightbulb, BookOpen } from 'lucide-react';
+import { Award, Lightbulb, Trophy } from 'lucide-react';
 
 const stats = [
-  { value: '9.39', label: 'CGPA', icon: Award },
+  { value: '9.35', label: 'CGPA (6th Sem)', icon: Award },
+  { value: '1', label: 'Best Paper Award', icon: Trophy },
   { value: '1', label: 'Published Patent', icon: Lightbulb },
-  { value: '2', label: 'IEEE Paper Acceptances', icon: BookOpen },
 ];
 
 export default function About() {
@@ -141,7 +141,7 @@ export default function About() {
                   </div>
                   <div className="p-4 bg-void-light rounded-lg border border-white/5">
                     <div className="text-neon text-sm font-medium mb-1">Education</div>
-                    <div className="text-white">B.E. CSE (Pursuing)</div>
+                    <div className="text-white">B.E. CSE (7th Sem)</div>
                   </div>
                   <div className="p-4 bg-void-light rounded-lg border border-white/5">
                     <div className="text-neon text-sm font-medium mb-1">Interest</div>
